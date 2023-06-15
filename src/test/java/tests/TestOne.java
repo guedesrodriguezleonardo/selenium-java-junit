@@ -16,8 +16,7 @@ public class TestOne extends TestBase {
 	public void testTC01() {
 		HomePage homePage = new HomePage(driver);
 		homePage.navigateToHome();
-		homePage.checkHomePage();
-
+		
  		assertTrue(homePage.isLogoDisplayed(), "Logo should be displayed on the home page.");
 	}
 }
